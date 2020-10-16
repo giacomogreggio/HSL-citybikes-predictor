@@ -29,9 +29,28 @@ Finnish Meteorological Institute provides open data on the weather that we used 
 ## Preview of HSL citybike predictor application
 
 ## Our data
+For our predictions we use:
+- the time of the day,
+- current month,
+- the area of the station,
+- the day of the week and
+- the weather.
+
+All our data are provided by HSL and Finnish Meteorological Institute. <br/>
+We ranked the weather in 10 different categories based on cloud cover, fog, amount of rainfall and windiness.
+
 ### Data behaviour and visualizations
 
-## Problems/Solutions (???)
+## Problems/Solutions
+Problems:
+- It is difficult to choose which station to go to when you are looking for a bike.
+- A lot of time is lost if you make the wrong choice.
+- Transportation in Helsinki requires multiple mobile applications which is frustrating for the users.
+- Route planners suggest routes without any regard for the availability of citybikes.
+
+Solutions:
+- Our application is aimed to be an add-on to a pre-existing application.
+- Our project makes it possible to suggest accurate routes taking the citybike availability into account.
 
 ## Same scope, different applications
 
