@@ -51,10 +51,10 @@ Next, we show you the number of departures and arrivals in the whole year 2019 d
 Also, we show you the same graph but for the citybike station that is one of the least crowded station: Itäkeskus Metrovarikko. <br/>
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/non_popular_station.png" width="600" height="400" />
  
-One of the most important aspect of HSL citybike predictor is the weather. We provide below th graph with the relation between the departures/arrivals and the weather in 2019. <br/>
+One of the most important aspect of HSL citybike predictor is the weather. We provide below th graph with the relation between the average value of departures/arrivals and the weather in 2019. <br/>
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/weather.png" width="600" height="400" />
  
-The previous graph is proposed also with the relation between the other main variables as hours, months and weekday. <br/>
+The previous graph is also proposed with the relation between the average value of departures/arrivals and the other main variables as hours, months and weekday. <br/>
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/hour.png" width="600" height="400" />
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/month.png" width="600" height="400" />
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/weekday.png" width="600" height="400" />
