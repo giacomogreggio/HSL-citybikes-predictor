@@ -14,6 +14,10 @@ What would happened if you have a way to check the availability of the citybikes
 ## Our solution:
 Well, our final product is an application (or an add-on to a pre-existing HSL-application) that will give you the possibility to monitoring the availability of the citybikes in the different situations, by predicting for each hour the number of citybikes available in the closest stations and also based on other factors as weather, weekday and month.
 
+## Preview of HSL citybike predictor application
+Below there is a preview about the mockup of the mobile application "HSL citybike predictor". <br/>
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/app.jpg" width="200" height="400" />
+
 ## Partners
 <img style="float: left;" src="https://www.hsl.fi/sites/all/themes/custom/hsl_tyyliopas/logo.png" width="130" />
 
@@ -25,8 +29,6 @@ HSL provides open data on all the trips made with the citybikes. To out aim we u
 
 The Finnish Meteorological Institute produces observation and research data on the atmosphere, the near space and the seas, as well as weather, sea, air quality and climate services for the needs of public safety, business life and citizens. The Finnish Meteorological Institute is an administrative branch of the Ministry of Transport and Communications. <br/>
 Finnish Meteorological Institute provides open data on the weather that we used to do our predictions.
-
-## Preview of HSL citybike predictor application
 
 ## Our data
 For our predictions we use:
@@ -40,6 +42,22 @@ All our data are provided by HSL and Finnish Meteorological Institute. <br/>
 We ranked the weather in 10 different categories based on cloud cover, fog, amount of rainfall and windiness.
 
 ### Data behaviour and visualizations
+From the first graph you can see the departures of every Monday in October 2019 from all the stations. It represents the general behaviour of our data. <br/>
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/october_behaviour.png" width="600" height="400" />
+
+Next, we show you the number of departures and arrivals in the whole year 2019 divided per hours in one of the most famous citybike station in Helsinki: Töölönlahdenkatu. <br/>
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/popular_station.png" width="600" height="400" />
+
+Also, we show you the same graph but for the citybike station that is one of the least crowded station: Itäkeskus Metrovarikko. <br/>
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/non_popular_station.png" width="600" height="400" />
+ 
+One of the most important aspect of HSL citybike predictor is the weather. We provide below th graph with the relation between the departures/arrivals and the weather in 2019. <br/>
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/weather.png" width="600" height="400" />
+ 
+The previous graph is proposed also with the relation between the other main variables as hours, months and weekday. <br/>
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/hour.png" width="600" height="400" />
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/month.png" width="600" height="400" />
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/weekday.png" width="600" height="400" />
 
 ## Problems/Solutions
 Problems:
@@ -49,6 +67,7 @@ Problems:
 - Route planners suggest routes without any regard for the availability of citybikes.
 
 Solutions:
+- Our aim is to give a solution for all the users of our application that reduce the time consuming and provide the best choice for the station.
 - Our application is aimed to be an add-on to a pre-existing application.
 - Our project makes it possible to suggest accurate routes taking the citybike availability into account.
 
