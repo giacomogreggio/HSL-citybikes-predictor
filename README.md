@@ -23,7 +23,7 @@ Below there is a preview about the mockup of the mobile application "HSL citybik
 
 Helsinki Region Transport (HSL) is a joint local authority whose member municipalities are Helsinki, Espoo, Vantaa, Kauniainen, Kerava, Kirkkonummi, Sipoo, Siuntio and Tuusula. HSL began its operations in 2010. <br/>
 Some 370 million journeys are made on HSL's transport services annually. HSL's annual operating income is over €640 million, of which ticket revenue accounts for about €330 million (about 46% in 2016). HSL has 373 employees. <br/>
-HSL provides open data on all the trips made with the citybikes. To out aim we used all the data related to the whole season of 2019.
+HSL provides open data on all the trips made with the citybikes. To our aim we used all the data related to the whole season of 2019.
 
 <img style="float: left;" src="https://marine.copernicus.eu/wp-content/uploads/2019/02/il-logo-fmi-rgb-687x345px.png" width="100" />
 
@@ -45,7 +45,7 @@ We ranked the weather in 10 different categories based on cloud cover, fog, amou
 From the first graph you can see the departures of every Monday in October 2019 from all the stations. It represents the general behaviour of our data. <br/>
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/october_behaviour_alt.png" width="600" height="400" />
 
-Next, we show you the number of departures and arrivals in the whole year 2019 divided per hours in one of the most famous citybike station in Helsinki: Töölönlahdenkatu. <br/>
+Next, we show you the number of departures and arrivals in the whole year 2019 divided per hours in one of the most popular citybike station in Helsinki: Töölönlahdenkatu. <br/>
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/popular_station.png" width="600" height="400" />
 
 Also, we show you the same graph but for the citybike station that is one of the least crowded station: Itäkeskus Metrovarikko. <br/>
