@@ -7,12 +7,12 @@
 
 ## Real world issue:
 How many times have you happened to reach a station to take a citybike and didn't find any of them available? <br/>
-How much time did you loose to reaching a station and find a solution when you have realized that there are no citybikes available? <br/>
+How much time have you lost walking to a station just to realize that there are no citybikes available? <br/>
 Besides, if the weather was not the best, probably it hasn't been a pleasant experience. <br/>
-What would happened if you have a way to check the availability of the citybikes between the different stations based on some variables as instance the weather?
+What if there was a way to check the availability of the citybikes on different stations based on some variables for example the weather?
 
 ## Our solution:
-Well, our final product is an application (or an add-on to a pre-existing HSL-application) that will give you the possibility to monitoring the availability of the citybikes in the different situations, by predicting for each hour the number of citybikes available in the closest stations and also based on other factors as weather, weekday and month.
+Well, our final product is an application (or an add-on to a pre-existing HSL-application) that will give you the possibility to monitor the availability of the citybikes in the different situations, by predicting the number of citybikes available in the closest stations for each hour based on multiple factors such as weather, weekday and month.
 
 ## Preview of HSL citybike predictor application
 Below there is a preview about the mockup of the mobile application "HSL citybike predictor". <br/>
@@ -67,11 +67,14 @@ Problems:
 - Route planners suggest routes without any regard for the availability of citybikes.
 
 Solutions:
-- Our aim is to give a solution for all the users of our application that reduce the time consuming and provide the best choice for the station.
+- Our aim is to give a solution for all the users of our application that reduces the time consuming and provides the best choice for the station.
 - Our application is aimed to be an add-on to a pre-existing application.
 - Our project makes it possible to suggest accurate routes taking the citybike availability into account.
 
 ## Same scope, different applications
+Right before we started our development process an application similar to ours, [Find Bike Now](https://www.findbikenow.com), was published. This shows that the need for this kind of application is real.  <br/>
+Unfortunately the published application is not as advanced as ours, it only considers average values for weekdays while our City Bike Predictor considers also for example weather, time of the day, and station’s location. This makes the Find Bike Now predictions less accurate and leads to misinformation. The predictions are not helpful if they are not correct.  <br/>
+In addition, Find Bike Now doesn't solve the problems listed above.
 
 ## Credits
 [Giacomo Greggio](https://github.com/giacomogreggio) <br/>
