@@ -43,7 +43,7 @@ We ranked the weather in 10 different categories based on cloud cover, fog, amou
 
 ### Data behaviour and visualizations
 From the first graph you can see the departures of every Monday in October 2019 from all the stations. It represents the general behaviour of our data. <br/>
-<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/october_behaviour.png" width="600" height="400" />
+<img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/october_behaviour_alt.png" width="600" height="400" />
 
 Next, we show you the number of departures and arrivals in the whole year 2019 divided per hours in one of the most famous citybike station in Helsinki: Töölönlahdenkatu. <br/>
 <img src="https://github.com/giacomogreggio/HSL-citybikes-predictor/blob/master/images/popular_station.png" width="600" height="400" />
